@@ -8,11 +8,6 @@ RSpec.describe Employee, type: :model do
   it { should validate_presence_of(:age) }
   it { should validate_presence_of(:emp_id) }
 
-
-  # it { is_expected.to validate_presence_of :age }
-  # it { is_expected.to validate_presence_of :emp_id }
-  # it { expect(employee).to validate_numericality_of(:first_name).is_greater_than_or_equal_to(1) }
-  # it { expect(employee).to validate_numericality_of(:first_name).is_less_than_or_equal_to(255) }
   
   it 'is invalid without a first_name' do
     employee.first_name = nil
