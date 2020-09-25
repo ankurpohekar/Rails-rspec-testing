@@ -7,20 +7,14 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Model spec
+  rspec/spes/models
 
-* System dependencies
+* Controller spec
+  rspec/spec/controllers
 
-* Configuration
+* Code Coverage
+  xdg-open coverage/index.html
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
 
 * ...
