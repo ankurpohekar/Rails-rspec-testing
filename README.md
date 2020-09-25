@@ -8,7 +8,7 @@ application up and running.
 Things you may want to cover:
 
 * Model spec
-  rspec/spes/models
+  ```rspec/spes/models```
 
 * Controller spec
   rspec/spec/controllers
